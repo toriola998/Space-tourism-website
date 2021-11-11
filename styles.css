@@ -48,11 +48,21 @@ h1 {
     color: #ffffff;
     font-family: Bellefair;
     font-weight: normal;
+    margin: 1rem 0;
+    font-size: 5rem;
+}
+
+.home {
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .home p {
     color: #D0D6F9;
     font-family: Barlow;
+    font-size: 15px;
+    text-align: center;
+    padding: 0 1rem;
 }
 
 #explore {
@@ -63,6 +73,7 @@ h1 {
     display: grid;
     justify-content: center;
     align-items: center;
+    margin: 5rem auto 0;
 }
 
 h4 {
