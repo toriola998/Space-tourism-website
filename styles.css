@@ -104,7 +104,6 @@ h4 {
         background-image: url("./assets/home/background-home-desktop.jpg");
     }
     .home {
-        height: 100vh;
         display: flex;
         align-items: center;
         text-align: unset;
