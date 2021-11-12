@@ -99,6 +99,60 @@ h4 {
   }
 
 
+  @media screen and (min-width: 800px) {
+    body {
+        background-image: url("./assets/home/background-home-desktop.jpg");
+    }
+    .home {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        text-align: unset;
+    }
+
+    .home > div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80vh;
+        width: 100vw;
+    }
+
+    .home p {
+        text-align: unset;
+        padding: unset;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    .details {
+        width: 22rem;
+    }
+
+    h3 {
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    #explore {
+        height: 15rem;
+        width: 15rem;
+        border-radius: 150px;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+    
+
+}
+
+
+
 
 
 
