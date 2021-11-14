@@ -96,10 +96,6 @@ h5 {
         display: flex;
         justify-content: center;
     }
-
-    .one {
-        margin-right: 1rem;
-    }
    
   }
 
@@ -119,8 +115,12 @@ h5 {
         justify-content: unset;
     }
 
-    h1 {
+    h1, h5, .details {
         text-align: unset;
+    }
+
+    .details{
+        padding: unset;
     }
 
     .description {
@@ -141,6 +141,9 @@ h5 {
     .container > div {
         width: 24rem;
     }
+
+    .one {
+        margin: 2rem 4rem 0  0;
   }
 
   @media screen and (min-width: 1200px) {
@@ -162,6 +165,7 @@ h5 {
         line-height: 2.0;
         font-size: 16px;
     }
+
     
   }
 
