@@ -40,13 +40,13 @@ body {
 
 h3 {
     color:#D0D6F9;
-    font-family: Barlow Condensed;
+    font-family: 'Barlow Condensed';
     font-weight: 400;
 }
 
 h1 {
     color: #ffffff;
-    font-family: Bellefair;
+    font-family: 'Bellefair';
     font-weight: normal;
     margin: 1rem 0;
     font-size: 5rem;
@@ -59,7 +59,7 @@ h1 {
 
  p {
     color: #D0D6F9;
-    font-family: Barlow;
+    font-family: 'Barlow';
     font-size: 14px;
     text-align: center;
     padding: 0 1rem;
@@ -78,7 +78,7 @@ h1 {
 }
 
 h4 {
-    font-family: Bellefair;
+    font-family: 'Bellefair';
     color: #0B0D17;
     font-weight: normal;
 }
@@ -97,7 +97,6 @@ h4 {
         line-height: 1.5;
     }
   }
-
 
   @media screen and (min-width: 800px) {
     body {
