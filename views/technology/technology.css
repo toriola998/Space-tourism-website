@@ -1,5 +1,10 @@
 body {
     background-image: url('./../../assets/technology/background-technology-mobile.jpg');
+    height: 100%;
+}
+
+main {
+    padding-bottom: 4rem;
 }
 
 .image {
@@ -17,7 +22,7 @@ h5 {
     font-family: 'Barlow Condensed';
     color: #D0D6F9;
     font-size: 14px;
-    opacity: unset;          /*the opacity from heading.css is disturbing*/
+    opacity: unset;   /*the opacity from heading.css is disturbing*/
     margin: 0 0 0.5rem 0;
     letter-spacing: 2px;
 }
@@ -25,3 +30,31 @@ h5 {
 p {
     margin-top: 1.5rem;
 }
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+a {
+    color: #fff;
+    padding: 1rem 1.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 100%;
+    padding: 1rem 1.3rem;
+    margin: 0 0.5rem 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
