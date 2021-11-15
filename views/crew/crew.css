@@ -83,21 +83,20 @@ h5 {
 
     .reverse{
         display: flex;
-        flex-direction: column-reverse;
-        
-      }
+        flex-direction: column-reverse;  
+    }
 
-      .wrapper-reverse {
-          display: flex;
-          justify-content: center;
-      }
+    .wrapper-reverse {
+        display: flex;
+        justify-content: center;
+    }
 
-      .content {
-          width: 400px;
-      }
+    .content {
+        width: 400px;
+    }
 
-      .crew-photo {
-        height: 450px;
+    .crew-photo {
+        height: 572px;
     }
 
     h3 {
@@ -105,14 +104,80 @@ h5 {
     }
     
     h5 {
-      
         font-size: 24px;
     }
-   
+}
+
+@media screen and (min-width: 760px) {
+    body {
+        background-image: url("./../../assets/crew/background-crew-desktop.jpg"); 
+        height: 100vh;
+    }
+
+    #container {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 80vh;
+    }
+
+    h5, h3, p {
+        text-align: unset;
+    }
+
+    .indicators{
+        justify-content: unset;
+    }
+
+    .indicators span {
+        width: 13px;
+        height: 13px;
+        margin: 4rem 1rem 0 0 ;
+    }
+
+    p {
+        padding: unset;
+    }
+
+    .crew-photo {
+        height: 400px;
+        margin: unset;
+    }
+
+    .content {
+        width: 340px;
+        margin-right: 2rem;
+    }
 
 }
 
+@media screen and (min-width: 1000px) {
+    .crew-photo {
+        height: 600px;
+    }
 
+    .content {
+        width: 400px;
+        margin-right: 4rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+    
+    h5 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .indicators span {
+        margin: 9rem 1rem 0 0 ;
+    }
+}
 
 
 
