@@ -1,6 +1,8 @@
 body {
     background-image: url("./../../assets/crew/background-crew-mobile.jpg");
-    width: 100vw;
+    width: 100%;
+    overflow-x:hidden;
+   
 }
 
 .crew-photo {
@@ -15,7 +17,7 @@ body {
     justify-content: center;
 }
 
-.indicators span {
+.indicators a {
     width: 10px;
     height: 10px;
     background-color: #979797;
@@ -82,10 +84,10 @@ body {
         justify-content: unset;
     }
 
-    .indicators span {
+    .indicators a {
         width: 13px;
         height: 13px;
-        margin: 4rem 1rem 0 0 ;
+        margin: 3rem 1rem 0 0 ;
     }
 
     p {
@@ -117,7 +119,7 @@ body {
         font-size: 16px;
     }
 
-    .indicators span {
+    .indicators a {
         margin: 9rem 1rem 0 0 ;
     }
 }

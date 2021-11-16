@@ -22,6 +22,10 @@ main {
     margin-top: 2rem;
 }
 
+h3 {
+    margin: 0.8rem 0;
+}
+
 h5 {
     font-family: 'Barlow Condensed';
     color: #D0D6F9;
@@ -29,10 +33,6 @@ h5 {
     opacity: unset;   /*the opacity from heading.css is disturbing*/
     margin: 0 0 0.5rem 0;
     letter-spacing: 2px;
-}
-
-p {
-    margin-top: 1.5rem;
 }
 
 ul {
@@ -64,10 +64,6 @@ a {
         background-image: url("./../../assets/technology/background-technology-tablet.jpg");
     }
 
-    .heading {
-        margin-bottom: 4rem;
-    }
-
     .nav-items li{
         padding: unset;
        
@@ -87,6 +83,10 @@ a {
 
     h3, h5, p {
         text-align: center;
+    }
+
+    h3{
+        font-size: 2.2rem;
     }
 
     p{
