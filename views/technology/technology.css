@@ -69,13 +69,17 @@ a {
         width: 400px; 
     }
 
+    h3, h5, p {
+        text-align: center;
+    }
+
     p{
-        padding: unset;
         line-height: 1.6;
+        padding: unset;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 810px) {
     body {
         background-image: url("./../../assets/technology/background-technology-desktop.jpg");
         height: 100vh;
@@ -99,8 +103,15 @@ a {
 
     ul {
         flex-direction: column;
-        margin: 1rem 0 0;
+        margin: 1rem 0rem 0 0;
         justify-content: unset;
+        padding-right: 1.5rem;
+    }
+
+    .outer-wrap {
+        display: flex;
+        justify-content: center;
+        width: 65%;
     }
 
     .wrap {
@@ -115,9 +126,7 @@ a {
 
     .page-content > div{
         width: 340px; 
-    }
-
-   
+    }  
 }
 
 @media screen and (min-width: 1270px) {
@@ -127,10 +136,6 @@ a {
 
     .page-content > div{
         width: 430px; 
-    }
-
-    .wrap{
-        padding-left: 10rem;
     }
 
     p {
