@@ -215,7 +215,7 @@ h4 {
     }
 
     .space-home {
-        width: 22rem;
+        width: 40rem;
     }
 
     h3 {
@@ -240,10 +240,7 @@ h4 {
 }
 
 @media screen and (min-width: 1200px) {
-    nav {
-        width: 50%;
-    }
-
+  
     .nav-items>li>a>span {
        display: inline;
       }
