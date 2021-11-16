@@ -1,5 +1,5 @@
 body {
-    background-image: url("./../assets/destination/background-destination-mobile.jpg");
+    background-image: url("./../../assets/destination/background-destination-mobile.jpg");
     width: 100vw;
     height: 100%;
 }
@@ -70,7 +70,7 @@ h5 {
 
 @media screen and (min-width: 600px) {
     body {
-        background-image: url("./../assets/destination/background-destination-tablet.jpg");
+        background-image: url("./../../assets/destination/background-destination-tablet.jpg");
     }
 
    /* .heading {
@@ -101,7 +101,7 @@ h5 {
 
   @media screen and (min-width: 760px) {
     body {
-        background-image: url("./../assets/destination/background-destination-desktop.jpg");
+        background-image: url("./../../assets/destination/background-destination-desktop.jpg");
         height: 100vh;
     }
 
