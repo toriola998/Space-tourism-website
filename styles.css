@@ -132,28 +132,61 @@ h4 {
 }
 
 @media screen and (min-width: 600px) {
-    body {
+  /* body {
         background-image: url("./assets/home/background-home-tablet.jpg");
     }
-
-    #hamburger {
+*/
+    #hamburger, #close-icon {
         display: none;
     }
 
+    nav {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 6rem;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(25px);
+        background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    .nav-items>li {
+        padding: 0 2rem 0 0;
+        margin: unset;
+    }
+
+    .nav-items>li>a>span {
+       display: none;
+      }
+
+    ul {
+        display: flex;
+    }
+
+    .space-home {
+        display: flex;
+        justify-content: center;
+        margin: 6rem 0 ;
+    }
     
+    .space-home> div {
+        width: 55%;
+    }
 
     h1 {
         font-size: 6rem;
     }
 
     .home p {
-        padding: 0 7rem;
         line-height: 1.5;
     }
   }
 
   @media screen and (min-width: 800px) {
-    body {
+   body {
         background-image: url("./assets/home/background-home-desktop.jpg");
     }
     .home {
@@ -200,7 +233,20 @@ h4 {
         font-size: 1.5rem;
     }
     
+    .nav-items>li>a:active {
+        border-bottom: 2px ;
+    }
 
+}
+
+@media screen and (min-width: 1200px) {
+    nav {
+        width: 50%;
+    }
+
+    .nav-items>li>a>span {
+       display: inline;
+      }
 }
 
 
