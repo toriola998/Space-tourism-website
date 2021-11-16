@@ -11,7 +11,7 @@ ul {
     margin-bottom: 2.5rem;
 }
 
-li {
+.page-nav>li> a {
     font-family: 'Barlow Condensed';
     color: #D0D6F9;
     margin: 0 0.5rem;
