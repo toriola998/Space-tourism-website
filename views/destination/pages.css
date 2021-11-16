@@ -5,7 +5,8 @@ body {
     overflow-x: hidden;
 }
 
-ul {
+
+.page-nav {
     display: flex;
     list-style: none;
     justify-content: center;
