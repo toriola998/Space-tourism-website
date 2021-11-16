@@ -55,11 +55,23 @@ a {
     flex-direction: column;
 }
 
+.nav-items a {
+    border: none;
+}
+
 @media screen and (min-width: 600px) {
     body {
         background-image: url("./../../assets/technology/background-technology-tablet.jpg");
     }
 
+    .heading {
+        margin-bottom: 4rem;
+    }
+
+    .nav-items li{
+        padding: unset;
+       
+    }
     .image {
         height: 310px;
     }
@@ -81,14 +93,21 @@ a {
         line-height: 1.6;
         padding: unset;
     }
+
+    .nav-items{
+        flex-direction: row;
+    }
+
+    .nav-items a{
+        margin: unset;
+    }
 }
 
 @media screen and (min-width: 810px) {
     body {
         background-image: url("./../../assets/technology/background-technology-desktop.jpg");
-        height: 100vh;
     }
-
+   
     .image {
         display: none;
     }
@@ -99,6 +118,14 @@ a {
         height: 350px;
         position: absolute;
         right: 0;
+    }
+
+    .nav-items {
+        margin: unset;
+    }
+
+    p,h3,h5 {
+        text-align: unset;
     }
 
     li {
@@ -137,13 +164,18 @@ a {
     .portrait {
         height: 500px;
     }
-
+   
     .page-content > div{
         width: 430px; 
     }
 
     p {
         font-size: 17px;
+    }
+
+    .nav-items a {
+        font-size: unset;
+        margin: unset;
     }
 
     a {
