@@ -29,8 +29,9 @@ body {
     width: 70vw;
     top: 0;
     left: 0;
-    backdrop-filter: blur(25px);
-    background-color: rgba(255, 255, 255, 0.03);
+    background: hsla(0,0%,100%,.04);
+    -webkit-backdrop-filter: blur(8.1rem);
+    backdrop-filter: blur(8.1rem);
     display: flex;
     justify-content: center;
     align-items: center;
