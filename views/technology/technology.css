@@ -69,7 +69,11 @@ a {
         background-image: url("./../../assets/technology/background-technology-tablet.jpg");
     }
 
-
+    .active-home1 {
+        border-radius: unset !important;
+        border-bottom: 3px solid #fff !important;
+        padding-bottom: 2.2rem;
+    }
 
     .nav-items li{
         padding: unset;
@@ -136,7 +140,7 @@ a {
     }
 
     li {
-        margin-bottom: 3.5rem;
+        margin-bottom: 4rem;
     }
 
     ul {
@@ -188,7 +192,7 @@ a {
     a {
         font-size: 32px;
         padding: 1.4rem 2.1rem;
-        margin: 0 4rem 0 0;
+        margin: 0 4rem 0rem 0;
     }
 
     h5{
