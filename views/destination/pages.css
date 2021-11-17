@@ -69,6 +69,11 @@ h5 {
     color: #ffffff;
 }
 
+.active-destination {
+    border-bottom: 3px solid white;
+    padding-bottom: 0.8rem;
+}
+
 @media screen and (min-width: 600px) {
     body {
         background-image: url("./../../assets/destination/background-destination-tablet.jpg");
@@ -140,11 +145,11 @@ h5 {
 
     .one {
         margin: 2rem 4rem 0  0;
-  }
+    }
 
-  .page-nav{
-      justify-content: unset;
-  }
+    .page-nav{
+        justify-content: unset;
+    }
 }
 
   @media screen and (min-width: 1200px) {

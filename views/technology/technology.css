@@ -59,10 +59,17 @@ a {
     border: none;
 }
 
+.active-tech {
+    background-color: white;
+    color: #000;
+}
+
 @media screen and (min-width: 600px) {
     body {
         background-image: url("./../../assets/technology/background-technology-tablet.jpg");
     }
+
+
 
     .nav-items li{
         padding: unset;
