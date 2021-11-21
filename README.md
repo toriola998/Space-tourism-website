@@ -12,7 +12,7 @@
 - Mobile-first workflow
 - JavaScript
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://space-tourism-web.netlify.app/](https://your-live-site-url.com)
 
 
 
