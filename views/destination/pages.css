@@ -79,6 +79,10 @@ h5 {
         background-image: url("./../../assets/destination/background-destination-tablet.jpg");
     }
 
+    h1 {
+        font-size: 5rem; 
+    }
+
     h4 {
         text-align: left;
         margin-left: 2rem;
@@ -114,6 +118,10 @@ h5 {
 
     ul, .wrapper {
         justify-content: unset;
+    }
+
+    h1 {
+        font-size: 5.5rem; 
     }
 
     h1, h5, .details {
@@ -157,6 +165,10 @@ h5 {
         width: 400px;
         height: 400px;
         margin-top: 5rem;
+    }
+
+    h1 {
+        font-size: 6.5rem; 
     }
 
     .container > div {

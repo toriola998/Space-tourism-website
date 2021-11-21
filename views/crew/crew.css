@@ -111,7 +111,7 @@ body {
 
 @media screen and (min-width: 1000px) {
     .crew-photo {
-        height: 600px;
+        height: 520px;
     }
 
     .content {
@@ -125,5 +125,9 @@ body {
 
     .indicators a {
         margin: 9rem 1rem 0 0 ;
+    }
+
+    h3 {
+        font-size: 2.7rem !important;
     }
 }
