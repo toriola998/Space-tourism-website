@@ -1,6 +1,6 @@
 #  Space tourism website
 
-![Design preview for the Space tourism website coding challenge](./../assets/preview.png)
+![Design preview for the Space tourism website coding challenge](./assets/preview.png)
 
 
 ### Built with
