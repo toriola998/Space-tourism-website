@@ -103,12 +103,11 @@ h1 {
     font-family: 'Bellefair';
     font-weight: normal;
     margin: 1rem 0;
-    font-size: 8rem;
+    font-size: 70px;
 }
 
 .home {
     text-align: center;
-    margin-top: 2rem;
 }
 
  p {
@@ -128,7 +127,7 @@ h1 {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 5rem auto 0;
+    margin: 4rem auto 0;
     cursor: pointer;
 }
 
