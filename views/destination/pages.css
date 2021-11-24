@@ -183,4 +183,8 @@ h5 {
         line-height: 2.0;
         font-size: 16px;
     }
+
+    h4 {
+        font-size: 1.5rem;
+    }
   }

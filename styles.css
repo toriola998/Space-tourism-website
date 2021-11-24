@@ -131,7 +131,7 @@ h1 {
     cursor: pointer;
 }
 
-#explore:hover::after {
+/*#explore:hover::after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -141,8 +141,7 @@ h1 {
     background: hsla(0,0%,100%,.04);
     -webkit-backdrop-filter: blur(25px);
     backdrop-filter: blur(25px);
-
-}
+}*/
 
 h4, button{
     font-family: 'Bellefair';
