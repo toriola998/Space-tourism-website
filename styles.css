@@ -143,15 +143,13 @@ h1 {
     backdrop-filter: blur(25px);
 }*/
 
-h4, button{
+h4, #explore p{
     font-family: 'Bellefair';
     color: #0B0D17;
     font-weight: normal;
 }
 
-button {
-    background: none;
-    border: none;
+#explore p {
     font-size: 1.2rem;
     cursor: pointer;
 }
@@ -261,7 +259,7 @@ button {
         border-radius: 150px;
     }
 
-    button {
+    #explore p {
         font-size: 1.7rem;
     }
     
