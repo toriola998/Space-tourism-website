@@ -2,7 +2,7 @@
 
 ![Design preview for the Space tourism website coding challenge](./assets/preview.png)
 
-- Live Site URL: [https://space-tourism-web.netlify.app/](https://your-live-site-url.com)
+- Live Site URL: [https://space-tourism-web.netlify.app/](https://space-tourism-web.netlify.app/)
 
 
 
